@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Garbage Classiffication</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{{ url_for('static',filename='img/favicon.png')}}" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css')}}">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html">Garbage Classication</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+            <li><a href="/predict">predict</a></li>
+            <ul>
+                </ul>
+              </li>
+            </ul>
+          </li>
+  
+            
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-up">
+      <h1>Welcome to Garbage Classification</h1>
+      <!--h2>We are team of talented designers making websites with Bootstrap</h2-->
+      <!--a href="#about" class="btn-get-started scrollto">Guess it..!</a-->
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row justify-content-end">
+          <div class="col-lg-11">
+            <div class="row justify-content-end">
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box py-5">
+                  <i class="bi bi-emoji-smile"></i>
+                  <!--span data-purecounter-start="0" data-purecounter-end="65" class="purecounter">0</span-->
+                  <p>Environmental Friendly</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box py-5">
+                  <i class="bi bi-journal-richtext"></i>
+                  <!--span data-purecounter-start="0" data-purecounter-end="85" class="purecounter">0</span-->
+                  <p>Reduced Work-process</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box pb-5 pt-0 pt-lg-5">
+                  <i class="bi bi-clock"></i>
+                  <!--span data-purecounter-start="0" data-purecounter-end="27" class="purecounter">0</span-->
+                  <p>Time Efficient</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box pb-5 pt-0 pt-lg-5">
+                  <i class="bi bi-award"></i>
+                  <!--span data-purecounter-start="0" data-purecounter-end="22" class="purecounter">0</span-->
+                  <p>Accurate Result</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 video-box align-self-baseline position-relative">
+            <img src="{{ url_for('static',filename='img/about.jpg')}}" class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+          </div>
+
+          <div class="col-lg-6 pt-3 pt-lg-0 content">
+            <h3>Garbage Classication Using AI With Deeplearning.</h3>
+            <p class="fst-italic">Garbage classification using AI involves leveraging various artificial intelligence techniques to automatically classify different types of waste. The aim is to develop intelligent systems that can accurately identify and categorize garbage items into specific classes, such as plastic, paper, glass, metal, or organic waste. Here are the key steps involved in garbage classification using AI
+            </p>
+            <ul>
+              <li><i class="bx bx-check-double"></i>Convolutional Neural Networks (CNNs): CNNs are well-suited for image classification tasks, including garbage classification. </li>
+              <li><i class="bx bx-check-double"></i> Data Augmentation: Data augmentation techniques are applied to artificially increase the size and diversity of the training dataset. </li>
+              <li><i class="bx bx-check-double"></i> Model Architecture: The architecture of the deep learning model plays a crucial role in garbage classification.</li>
+              <li><i class="bx bx-check-double"></i> Deployment and Real-time Classification: Trained deep learning models can be deployed for real-time garbage classification applications. </li>
+            </ul>
+            <p>
+              These features collectively contribute to the accuracy, efficiency, and scalability of garbage classification using AI with deep learning techniques. By leveraging the power of deep learning, communities can implement intelligent and automated systems that significantly improve waste management practices and promote sustainable solutions.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="fade-in">
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services ">
+      <div class="container">
+
+ 
+
+  </main><!-- End #main -->
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Garbagee Classification</h3>
+            <p>Welcome to the world of garbage classification using deep learning. At [Company/Organization Name], we are committed to tackling the global challenge of waste management by harnessing the power of artificial intelligence and deep learning algorithms.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+               Vaigai College Of Enginereing<br>
+              Melur,Madurai<br>
+              Tamilnadu <br>
+              <strong>Phone:</strong> 0452-2911009<br>
+              <strong>Email:</strong> gabageclassifiedvceproject001@gmail.com<br>
+            </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Garbage Classiication</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/serenity-bootstrap-corporate-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">Hari & Santhosh</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/static/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/static/vendor/aos/aos.js"></script>
+  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/static/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="/static/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ url_for('static',filename='js/main.js')}}"></script>
+
+</body>
+
+</html>
